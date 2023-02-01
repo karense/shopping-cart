@@ -1,0 +1,10 @@
+.container_productList{
+    width: auto;
+    margin: 2.5rem;
+    padding: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+}

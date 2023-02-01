@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.app_productList{
+    width: 70%;
+}
+
+.app_detail{
+    width: 30%;
+}

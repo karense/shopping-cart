@@ -1,0 +1,9 @@
+<div class="container_product">
+    <div class="container_image_product">
+        <img [src]="product.image">
+    </div>
+    <div class="container_info_product">
+        <h1>{{product.name}}</h1>
+        <p>{{product.price | currency: "USD" | lowercase}}</p>
+    </div>
+</div>

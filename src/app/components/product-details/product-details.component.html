@@ -1,0 +1,19 @@
+<div class="container_product">
+    <header>
+        <h1>Detalles</h1>
+    </header>
+    <div class="container_body">
+        <div class="container_image_product">
+            <img [src]="product.image" >
+        </div>
+        <div class="container_info_product">
+            <h1>{{product.name}}</h1>
+            <p>{{product.price | currency: "USD" | lowercase}}</p>
+            <h1>Descripción</h1>
+            <p>{{product.description}}</p>
+        </div>
+        <footer>
+            <button>AGREGAR</button>
+        </footer>
+    </div>
+</div>
