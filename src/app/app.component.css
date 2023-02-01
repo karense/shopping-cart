@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
+    width: 100%;
+    
 }
 
 .app_productList{
@@ -10,4 +12,29 @@
 
 .app_detail{
     width: 30%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+@media(max-width: 500px){
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .app_productList{
+        width: 100%;
+    }
+
+    .app_detail{
+        width: 100%;
+        position: static;
+    }
 }

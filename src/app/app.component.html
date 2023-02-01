@@ -1,4 +1,7 @@
 <div class="container">
-  <app-product-list class="app_productList" [products]="products" (selected)="setProductSelected($event)"></app-product-list>
+  <div class="app_productList">
+    <h1>Catálogo</h1>
+    <app-product-list class="app_productList" [products]="products" (selected)="setProductSelected($event)"></app-product-list>
+  </div>
   <app-product-details class="app_detail" [product]="productSelec"></app-product-details>
 </div>
